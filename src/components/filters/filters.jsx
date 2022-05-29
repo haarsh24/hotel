@@ -9,9 +9,9 @@ const Filters = () => {
      }
     return (
         <>
-              <aside className="filters-wrapper  flex-column p1">
+              <aside className="filters-wrapper  flex-column p2 ">
         <form
-          className="drawer flex-column "
+          className="drawer flex-column p1  "
         >
           <div className="heading h2">Filters</div>
 
@@ -34,7 +34,7 @@ const Filters = () => {
               type="checkbox"
               name="city"
               onChange={() =>
-                filterDispatch({ type: "CITY", payload: "delhi" })
+                filterDispatch({ type: "CITY", payload: "Delhi" })
               }
             />
           </div>
@@ -44,7 +44,7 @@ const Filters = () => {
               type="checkbox"
               name="city"
               onChange={() =>
-                filterDispatch({ type: "CITY", payload: "mumbai" })
+                filterDispatch({ type: "CITY", payload: "Mumbai" })
               }
             />
           </div>
@@ -76,27 +76,7 @@ const Filters = () => {
               onChange={() => filterDispatch({ type: "RATING", payload: 3 })}
             />
           </div>
-          <label className="m1 h3">Sort by</label>
-          <div>
-            <label className="p1 h5">Price Low to High</label>
-            <input
-              type="radio"
-              name="sort-by-price"
-              onChange={() =>
-                filterDispatch({ type: "SORT", payload: "LOW_TO_HIGH" })
-              }
-            />
-          </div>
-          <div>
-            <label className="p1 h5">Price High to Low</label>
-            <input
-              type="radio"
-              name="sort-by-price"
-              onChange={() =>
-                filterDispatch({ type: "SORT", payload: "HIGH_TO_LOW" })
-              }
-            />
-          </div>
+         
           <button
             className="btn m1"
             onClick={(e)=>resetFilterHandler(e)}

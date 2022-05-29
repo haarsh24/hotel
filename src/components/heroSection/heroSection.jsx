@@ -13,13 +13,12 @@ const HeroSection = () => {
                 </div>
                 <div className="product-detail-wrapper p2 ">
                     <div className=" index-title ">
-                        <p>Shop the best collection of sneakers ever. </p>
+                        <p>World's leading chain of hotels and homes
+More Destinations. More Ease. More Affordable. </p>
                     </div>
 
                     <div className="product-summary h4 ">
-                        The Latest & Greatest Sneakers .Free shipping on your first order. Beautifully crafted
-                        collection.
-                        No questions asked returns. </div>
+                        Enjoy hassel less booking of hotel with best in class customer experience at affordable experience </div>
                     <div className="m2">
                             <button className="btn h2 ">
                                

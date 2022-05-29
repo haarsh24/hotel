@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 const HotelCard = (props) => {
     const item = props.singleHotel;
-    
+    console.log(item.id)
     return (
         <>
                  <div className="product-collection item  ">
-        <div className="collection-detail flex-column card-container p1 m2">
+        <div className="collection-detail flex-column  p1 m2">
           <div className="product-rating  ">{item.rating}⭐</div>
-          <Link to={`/hotels/${item._id}`}>
+          <Link to={`/hotels/${item.id}`}>
           <img className=" product-img " src={item.mainImage} />
           </Link>
           <div className="product-collection-detail  flex-column">

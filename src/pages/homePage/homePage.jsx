@@ -1,10 +1,11 @@
-import { HeroSection, Navbar } from "../../components"
+import { FeaturesSection, HeroSection, Navbar } from "../../components"
 
 const HomePage = () => {
     return (
         <>
             
-            <HeroSection/>
+            <HeroSection />
+            <FeaturesSection/>
         </>
     )
 }

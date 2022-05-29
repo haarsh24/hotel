@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Handlee&display=swap");
 @import url("https://litui.netlify.app/components/components-style.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 *{
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
@@ -147,4 +147,19 @@
 }
 .new-arrival-wrapper{
   margin-left: 2rem;
+}
+.feature{
+ width: auto;
+ height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.feature-img{
+  width: 10rem;
+  height: 15rem;
+}
+.title{
+  font-family: 'Aclonica', sans-serif;
 }

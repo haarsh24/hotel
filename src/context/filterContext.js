@@ -8,8 +8,9 @@ const FilterContext = createContext();
 const FilterProvider = ({ children }) => {
     const [filterState, filterDispatch] = useReducer(filterReducer, {
         rating: 3,
-        city: "Delhi",
+        city: "",
         search: "",
+       
     
     })
     return (

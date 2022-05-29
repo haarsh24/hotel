@@ -1,7 +1,5 @@
 const filterReducer = (state , action) => {
     switch (action.type) {
-        case "SORT":
-            return {...state, sort:action.payload};
         case "RATING":
             return {...state, rating:action.payload};
             case "CITY":

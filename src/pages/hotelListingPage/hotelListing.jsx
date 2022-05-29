@@ -1,14 +1,19 @@
-import { HotelCard } from "../../components";
+import { HotelCard ,Filters} from "../../components";
 import {hotelData} from "../../data/hotelData";
 
 const HotelListing = () => {
     const data = hotelData;
-    console.log(data);
+    
     return (
         <>
+            <div className="product-list ">
+                <Filters/>
             <div className="product">
-            
-            </div>
+            {data.map((item)=>(
+                <HotelCard singleHotel = {item}/>
+            ))}
+                </div>
+                </div>
         </>
     )
 }

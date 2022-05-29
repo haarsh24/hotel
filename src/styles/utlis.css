@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 :root {
-  --primary-color: #060311;
-  --secondary-color: #dce3ec;
+  --primary-color: #22695e !important;
+  --secondary-color: #dce3ec !;
   --shadow-color: #bbb1c0;
   --text-color: #fafafa;
   --background-color: #ddd7e0;
